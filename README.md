@@ -4,7 +4,7 @@ A lightweight, modular custom C preprocessor built in C that parses source files
 
 ---
 
-## 🚀 Features
+##  Features
 
 * **File Inclusion Handler**: Automatically detects `#include` directives (both system `<...>` and local `"..."` headers) and expands them into the target file.
 * **Comment Removal**: Scans the intermediate file and safely strips out both single-line (`//`) and multi-line (`/* ... */`) comments in-place using file streams.
@@ -32,4 +32,4 @@ Make sure you have a standard C compiler (`cc`/`gcc`) and `make` utility install
 Build the project executable using the provided Makefile:
 
 ```bash
-make -f makefile_2
+make filename.c
